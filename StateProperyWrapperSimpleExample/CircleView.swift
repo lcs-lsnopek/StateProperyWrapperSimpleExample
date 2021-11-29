@@ -10,7 +10,8 @@ import SwiftUI
 struct CircleView: View {
     
     //MARK: Stord proprotys
-    let radius: Double = 10.0
+    //@state is a proproty rapper radius is still a propoty The proproy raper tells swift UI we want changes to it
+    @State var radius: Double = 10.0
     
     
     //MARK: Computed Prorotys
@@ -22,18 +23,22 @@ struct CircleView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             
-            Text("Radius:")
-                .bold()
-            
-            TextField("Radius",
-                      text: .constant(""),
-                      prompt: Text("e.g.:24.5"))
-            
+            Slider(value: $radius,
+                   in: 0.0...100.0,
+                   label: {
+                        Text("Radius")
+            },
+                   minimumValueLabel: {
+                        Text("0.0")
+            },
+                   maximumValueLabel: {
+                        Text("100.0")
+            })
             //output
             Text("Area:")
                 .bold()
             
-            Text("24.5 square units")
+            Text("314.2 square units")
             
             Spacer()
             
