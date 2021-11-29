@@ -23,33 +23,39 @@ struct CircleView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             
+            Text("Radius")
+                .bold()
+            
             Slider(value: $radius,
                    in: 0.0...100.0,
                    label: {
                         Text("Radius")
             },
                    minimumValueLabel: {
-                        Text("0.0")
+                        Text("0")
             },
                    maximumValueLabel: {
-                        Text("100.0")
+                        Text("100")
             })
             //output
             Text("Area:")
                 .bold()
             
-            Text("314.2 square units")
+            Text("\(area) square units")
             
             Spacer()
             
         }
         .padding()
         .navigationTitle("Circle")
-    }
+       
+            }
 }
 
 struct CircleView_Previews: PreviewProvider {
     static var previews: some View {
+        NavigationView{
         CircleView()
+        }
     }
 }

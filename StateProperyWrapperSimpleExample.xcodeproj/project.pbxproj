@@ -11,6 +11,7 @@
 		B228C705275535E40088F9EC /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228C704275535E40088F9EC /* CircleView.swift */; };
 		B228C707275535F40088F9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B228C706275535F40088F9EC /* Assets.xcassets */; };
 		B228C70A275535F40088F9EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B228C709275535F40088F9EC /* Preview Assets.xcassets */; };
+		B228C711275542A10088F9EC /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228C710275542A10088F9EC /* RectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B228C704275535E40088F9EC /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		B228C706275535F40088F9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B228C709275535F40088F9EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B228C710275542A10088F9EC /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				B228C702275535E40088F9EC /* StateProperyWrapperSimpleExampleApp.swift */,
+				B228C710275542A10088F9EC /* RectangleView.swift */,
 				B228C704275535E40088F9EC /* CircleView.swift */,
 				B228C706275535F40088F9EC /* Assets.xcassets */,
 				B228C708275535F40088F9EC /* Preview Content */,
@@ -139,6 +142,7 @@
 			files = (
 				B228C705275535E40088F9EC /* CircleView.swift in Sources */,
 				B228C703275535E40088F9EC /* StateProperyWrapperSimpleExampleApp.swift in Sources */,
+				B228C711275542A10088F9EC /* RectangleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
